@@ -1,0 +1,11 @@
+<svg id="title-box-left" xmlns="http://www.w3.org/2000/svg" width="210" height="53" viewBox="0 0 210 53">
+  <path id="Subtraction_2" data-name="Subtraction 2" d="M200,39H0V0H180.853L200,25.695V39Z" transform="translate(5 9)" fill="#b388fe"/>
+  <g id="Subtraction_1" data-name="Subtraction 1" transform="translate(0 4)" fill="none">
+    <path d="M210,49H0V0H189.275L210,28.843V49Z" stroke="none"/>
+    <path d="M 207 45.99957656860352 L 207 29.80892753601074 L 187.736083984375 2.999988555908203 L 3 2.999988555908203 L 3 45.99957656860352 L 207 45.99957656860352 M 210 48.9999885559082 L 210 48.99957656860352 L 0 48.99957656860352 L 0 -1.1444091796875e-05 L 189.2745819091797 -1.1444091796875e-05 L 210 28.84284210205078 L 210 48.9999885559082 Z" stroke="none" fill="#b388fe"/>
+  </g>
+  <rect id="Rectangle_21" data-name="Rectangle 21" width="5" height="4" transform="translate(46 0)" fill="#b388fe"/>
+  <rect id="Rectangle_26" data-name="Rectangle 26" width="5" height="4" transform="translate(53 0)" fill="#b388fe"/>
+  <rect id="Rectangle_25" data-name="Rectangle 25" width="5" height="4" transform="translate(39 0)" fill="#b388fe"/>
+  <path id="Subtraction_3" data-name="Subtraction 3" d="M27.632,4H0V0H24.945l2.686,4Z" transform="translate(60.524 0)" fill="#b388fe"/>
+</svg>

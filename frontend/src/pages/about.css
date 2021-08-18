@@ -1,0 +1,328 @@
+@keyframes downup {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes downupAndrotate {
+  0% {
+    transform: translateY(0%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(20%) rotate(10deg);
+  }
+}
+@keyframes downupAndrotate2 {
+  0% {
+    transform: translateY(0%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(20%) rotate(-10deg);
+  }
+}
+/* --- animation --- */
+.about-downup {
+  animation: downup ease-in-out infinite alternate forwards;
+}
+.about-rotate {
+  animation: rotate linear infinite;
+}
+.about-downupAndrotate {
+  animation: downupAndrotate ease-in-out infinite alternate forwards;
+}
+.about-downupAndrotate2 {
+  animation: downupAndrotate2 ease-in-out infinite alternate forwards;
+}
+* {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.bg-about {
+  background: url(../pages/image/bg/bg-innerpagae.png);
+  height: 5130px;
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+/* --- server-title --- */
+.about-fontWeight {
+  font-weight: bold;
+}
+.server-title,
+.server-items,
+.venue-rental {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+  height: fit-content;
+}
+.fontcolor-w {
+  color: white;
+}
+.fontcolor-b {
+  color: black;
+}
+.little-title {
+  margin: 0;
+  font-size: 24px;
+}
+.about-title2 {
+  font-size: 32px;
+}
+.server-icon {
+  margin-left: 100px;
+}
+.earth {
+  width: 230px;
+  transform: rotate(15deg);
+  animation-duration: 2s;
+}
+/* --- server-items --- */
+.si-content {
+  background: url(../pages/image/png/about_bg-title.png);
+  background-size: contain;
+  width: 655px;
+  height: 250px;
+  text-align: left;
+  transform: translateX(-550px);
+}
+.si-title {
+  padding: 70px 0 10px 100px;
+}
+.content-text {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.si-text {
+  padding: 0 100px 0 100px;
+}
+.si-pic {
+  transform: translate(610px, 180px);
+}
+.si-pic img {
+  width: 580px;
+  height: 350px;
+}
+/* --- venue-rental / boardgame-ordering --- */
+.venue-rental,
+.boardgame-ordering {
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.introdution-box {
+  width: 550px;
+  height: 200px;
+}
+.title-bg {
+  background-color: #9c64a5;
+  padding: 2px 10px;
+  border: 5px solid #ce93d7;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 0 auto;
+  transform: translateY(30px);
+}
+.border-bg {
+  padding-top: 20px;
+  border: 50px solid transparent;
+  border-image: url(../pages/image/svg/about_border-5.svg) 50;
+}
+.vr-pic {
+  margin-left: 20px;
+}
+.vr-pic img {
+  width: 580px;
+  height: 350px;
+  transform: translateY(80px);
+}
+.boardgame-ordering {
+  margin-top: 200px;
+}
+.bgo-box {
+  transform: translateX(10px);
+}
+.bgo-pic img {
+  width: 580px;
+  height: 350px;
+  transform: translate(-20px, 80px);
+}
+/* --- fqa --- */
+.fqa,
+.store-location {
+  margin-top: 200px;
+}
+.about-title {
+  background: url(../pages/image/png/about_bg-title.png);
+  background-size: contain;
+  width: 300px;
+  height: 115px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 32px;
+  padding-top: 30px;
+}
+.fqa-bookmark {
+  width: 1020px;
+  height: 1250px;
+  margin-top: 80px;
+  clear: both;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.click-title {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.click-title li {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  border-radius: 20px 20px 0 0;
+  /* margin-bottom: -1px;  */
+  /* 讓 li 往下移來遮住 ul 的部份 border-bottom */
+}
+.fqa-click {
+  display: block;
+  height: 100%;
+  padding: 10px 100px;
+  font-size: 32px;
+  color: white;
+  border-radius: 20px 20px 0 0;
+  text-decoration: none;
+}
+.fqa-click:hover {
+  color: white;
+  text-decoration: none;
+}
+.click-title li:hover {
+  color: white;
+  text-decoration: none;
+}
+.click-vr:hover {
+  background-color: #332e60;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+.vr-a:hover {
+  background-color: #746ac3;
+  transition: 0.5s;
+}
+.click-vr .active {
+  background-color: #746ac3;
+  padding-bottom: 10px;
+  transition: 0.5s;
+}
+.bo-a:hover {
+  background-color: #974a84;
+  transition: 0.5s;
+}
+.click-bo .active {
+  background-color: #602e54;
+  padding-bottom: 10px;
+  transition: 0.5s;
+}
+.click-bo .active:hover {
+  background-color: #602e54;
+  padding-bottom: 10px;
+  transition: 0.5s;
+}
+.click-bo:hover {
+  background-color: #974a84;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+.click-vr {
+  background-color: #332e60;
+}
+.click-bo {
+  background-color: #602e54;
+}
+.content-group {
+  margin-top: 50px;
+}
+.fqa-block {
+  margin: 2% 0 5% 0;
+}
+.fqa-content1 {
+  background-color: #332e60;
+  border-radius: 0 0 20px 20px;
+  padding: 7%;
+}
+.fqa-content2 {
+  background-color: #602e54;
+  border-radius: 0 0 20px 20px;
+  padding: 7%;
+}
+.content-group {
+  width: 100%;
+}
+/* --- store-location --- */
+.sl-control {
+  position: absolute;
+  opacity: 0;
+}
+.sl-namegroup {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 250px 200px;
+}
+.sl-name {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin: 30px;
+  bottom: -1px;
+  background-color: transparent;
+  border: 5px solid #b388fe;
+  border-radius: 5px;
+  padding: 5px 30px;
+  position: relative;
+}
+.sl-map {
+  display: none;
+  margin: 0 0 250px 100px;
+  transition: 1s;
+}
+.sl-group {
+  background: url(../pages/image/png/about_bg-store.png);
+  background-size: contain;
+  width: 1320px;
+  height: 840px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+#sl-1:checked ~ .sl-namegroup [for='sl-1'],
+#sl-2:checked ~ .sl-namegroup [for='sl-2'] {
+  background-color: #b388fe;
+  transition: 0.5s;
+}
+#sl-1:checked ~ .sl-mapgroup .sl-1,
+#sl-2:checked ~ .sl-mapgroup .sl-2 {
+  display: block;
+}

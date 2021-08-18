@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./navbar.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="logo">
+          <a href="../pages/Homepage.js"
+            ><img src="../pages/image/svg/logo.svg" alt=""
+          /></a>
+        </div>
+        <div class="navbar-link" id="navbarText">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a href="../pages/reservations/ReservationIndex.js">預約艙房</a>
+            </li>
+            <li class="nav-item">
+              <a href="../pages/items/ItemIndex.js">宇宙市集</a>
+            </li>
+            <li class="nav-item">
+              <a href="../pages/game/GameIndex.js">星際任務</a>
+            </li>
+            <li class="nav-item">
+              <a href="../pages/message/MessageIndex.js">太空交誼廳</a>
+            </li>
+            <li class="nav-item">
+              <a href="../pages/About.js">聯絡總署</a>
+            </li>
+          </ul>
+        </div>
+        <div class="shopping-cart mx-auto">
+          <a href="../pages/cart/CartIndex.js">
+            <img src="../pages/image/svg/icon-shop.svg" alt="" />
+            <span class="shopping-count">0</span>
+          </a>
+        </div>
+        <div class="btn-login-registered mx-auto">
+          <button type="button" class="btn login-registered">
+            登入 / 註冊
+          </button>
+          <!-- <div class="memberLogin"></div> -->
+        </div>
+      </div>
+    </nav>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $('.nav-item')
+        .click(function () {
+          // 找 li 裡的 a href'#id'
+          const $this = $(this),
+            clickThis = $this.find('a').attr('href')
+
+          // 自己有 active，其他沒有
+          $this.addClass('active').siblings('.active').removeClass('active')
+
+          $(clickThis).stop(false, true).fadeIn().siblings().hide()
+
+          return false
+        })
+        .find('a')
+        .focus(function () {
+          this.blur()
+        })
+    </script>
+  </body>
+</html>

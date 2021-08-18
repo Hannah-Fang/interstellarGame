@@ -1,0 +1,199 @@
+
+/* body{
+    background-image: url(img/bg2.png);
+ 
+  } */
+
+/* * {
+      font-size: 1.4rem;
+      font-family: 'Noto Sans TC', sans-serif;
+      letter-spacing: .5px;
+  } */
+
+  .orderpage{
+   
+      background: url(../image/bg/bg-innerpagae.png) center;
+      padding-bottom: 100px;
+      padding-top:100px;
+      flex-direction: column;
+    
+  }
+.cart4ordertitle{
+  margin-left: 350px;
+
+}
+
+
+.cart4top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+ 
+}
+
+.cart4top1{
+margin-left: 80px;
+
+} 
+
+
+/* p {
+  font-size: 20px;
+  margin: auto;
+
+} */
+
+/* p1{color:white;
+  font-size: 20px;
+  margin-left: 175px; 
+
+}
+ 
+p2 {
+  font-size: 20px;
+  margin-left: 135px;
+  margin-right: 75px;
+  color:white;
+
+} */
+
+/* p3 {
+  font-size: 20px;
+  margin-left: 135px;
+  margin-right: 75px;
+  color:#707480;
+} */
+  
+
+
+.icon {
+  position: absolute;
+  margin-left:920px;
+}
+/* 訂單資訊 */
+.cart4order1 {
+  margin:  auto;
+  display: flex;
+
+  background-image: url(img/order_list_bg_top.png);
+  width:800px;
+  height:175px;
+
+}
+
+
+
+
+
+
+.cart4title1 {
+ 
+  background-image: url(img/order_list_bg_middle.png);
+  display: flex;
+  color: rgb(14, 12, 12);
+  width:800px;
+  margin: auto;
+  height:580px;
+
+  
+}
+.cart4title2 {
+  color: black;
+  margin-left: 80px;
+
+
+}
+.cart4title3 {
+ 
+ background-image: url(img/white.png);
+ display: flex;
+ color: rgb(15, 13, 13);
+ width:800px;
+ margin: auto;
+
+  text-align: center;
+  border-bottom: none;
+border-top:none;
+border-right: none;
+border-left: none;
+
+ 
+}
+.frame{
+  border:rgb(20, 19, 19) 1px solid;
+  width:630px;
+  height:420px;
+
+  
+}
+.select{
+margin-left: 120px;
+}
+
+
+
+.item {
+
+  margin-left: 65px;
+}
+
+
+
+.Shoppingcart4end {
+ 
+  border-top: none;
+  width:800px;
+  margin: auto;
+  height:330px;
+  background-image: url(img/end.png);
+ 
+}
+.Shoppingcart4end1{
+margin-left:520px;
+
+
+}
+.red{
+color: red;
+font-size:22px;
+}
+
+
+
+
+
+.time{
+  border:black solid 1px;
+text-align: center;
+border-right: none;
+border-left: none;
+border-top:none;
+
+
+}
+.cart4th { 
+  background-color:#e2c0e7;
+  padding:13px;
+ height:100px;
+  color:rgb(12, 9, 9);
+  border:none;
+  } 
+
+  .cartp{
+ font-size:18px;
+ align-items: center;
+
+  }
+
+     .cartp2{
+      font-size:20px;
+      align-items: center;
+     
+       }
+       .cartp3{
+        font-size:20px;
+        align-items: center;
+       
+         }
+

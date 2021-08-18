@@ -1,0 +1,360 @@
+@keyframes downup {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(10%);
+  }
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes downupAndrotate {
+  0% {
+    transform: translateY(0%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(20%) rotate(10deg);
+  }
+}
+@keyframes downupAndrotate2 {
+  0% {
+    transform: translateY(0%) rotate(0deg);
+  }
+  100% {
+    transform: translateY(20%) rotate(-10deg);
+  }
+}
+
+* {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.bg-homepage {
+  background: url(../pages/image/bg/bg-index.png);
+  height: 4000px;
+}
+.h-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+/* --- tamplate --- */
+.fontcolor-w {
+  color: white;
+}
+.fontcolor-y {
+  color: #ffea01;
+}
+.kv-slogan-t {
+  font-size: 18px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+.homeP-fontWeight {
+  font-weight: bold;
+}
+.homeP-btn {
+  margin: 20px;
+}
+/* --- animation --- */
+.a-downup {
+  animation: downup ease-in-out infinite alternate forwards;
+}
+.a-rotate {
+  animation: rotate linear infinite;
+}
+.a-downupAndrotate {
+  animation: downupAndrotate ease-in-out infinite alternate forwards;
+}
+.a-downupAndrotate2 {
+  animation: downupAndrotate2 ease-in-out infinite alternate forwards;
+}
+
+/* --- kv --- */
+.kv {
+  margin-top: 290px;
+  position: relative;
+}
+.bigslogan {
+  font-size: 80px;
+  margin: 0;
+}
+.kv-scrolldown {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation-duration: 0.6s;
+}
+.kv-svg-astronaut {
+  width: 230px;
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  animation-duration: 2s;
+}
+.kv-svg-earth {
+  width: 350px;
+  position: absolute;
+  top: 10%;
+  left: -40%;
+  animation-duration: 50s;
+}
+.kv-svg-moon {
+  width: 225px;
+  position: absolute;
+  bottom: -10%;
+  right: -20%;
+  animation-duration: 10s;
+}
+.kv-svg-Saturn {
+  width: 400px;
+  position: absolute;
+  top: -115%;
+  right: 0%;
+  animation-duration: 5s;
+}
+/* --- new arrival --- */
+.new-arrival {
+  position: relative;
+}
+.na-title {
+  margin-top: 180px;
+}
+.blcok-header {
+  font-size: 16px;
+  margin: 0;
+}
+.blcok-slogan {
+  font-size: 60px;
+}
+.na-carousel {
+  width: 1200px;
+  height: 380px;
+  margin-top: 200px;
+  display: flex;
+}
+.step-a {
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.na-itemCards:hover {
+  transform: scale(1.1, 1.1);
+  transition: 0.5s;
+}
+.na-svg-astronaut1 {
+  width: 210px;
+  position: absolute;
+}
+.na-svg-astronaut2 {
+  width: 110px;
+  position: absolute;
+}
+.na-png-shuttle {
+  width: 1920px;
+  position: absolute;
+  z-index: -9999;
+  top: 10%;
+  left: -65%;
+  transform: rotate(-10deg);
+}
+.na-svg-astronaut1 {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  transform: rotate(15deg);
+  animation-duration: 1s;
+}
+.na-svg-astronaut2 {
+  position: absolute;
+  top: 28%;
+  right: 12%;
+  animation-duration: 1.5s;
+}
+
+/* --- store introdution --- */
+.store-introdution {
+  position: relative;
+  margin-top: 200px;
+}
+.si-text p {
+  width: 400px;
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
+.si-carousel {
+  width: 1140px;
+  display: flex;
+  /* background-color: wheat; */
+  margin-top: 80px;
+  position: relative;
+}
+.carousel-pic {
+  width: 790px;
+  height: 530px;
+  overflow: hidden;
+  position: relative;
+}
+.img-wrap {
+  display: flex;
+  width: 4740px;
+  /* transform: translateX(-3950px); */
+  height: 100%;
+  transition: 0.5s;
+}
+li {
+  flex-shrink: 1;
+  overflow: hidden;
+  height: 100%;
+}
+li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.carousel-arrow {
+  display: flex;
+  margin-top: 450px;
+}
+.left-arrow {
+  /* position: absolute; */
+  width: 80px;
+  height: 80px;
+  /* color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-arrow {
+  /* position: absolute; */
+  width: 80px;
+  height: 80px;
+  /* color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.information-card {
+  width: 460px;
+  height: 330px;
+  background-color: #fff;
+  border-radius: 25px;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 30px #000000;
+}
+.ic {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  text-align: left;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.ic-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+.ic-content {
+  font-size: 16px;
+  word-spacing: 10px;
+  line-height: 10px;
+  padding-top: 30px;
+}
+.ic-1,
+.ic-2 {
+  display: none;
+  transition: 0.5s;
+}
+/* .ic-move-h {
+  display: none;
+} */
+.ic-move-b {
+  display: block;
+}
+.si-svg-astronaut {
+  width: 310px;
+  position: absolute;
+  top: 5%;
+  right: -5%;
+  animation-duration: 3s;
+}
+.si-svg-satellite {
+  width: 200px;
+  position: absolute;
+  top: 15%;
+  left: -10%;
+  animation-duration: 7s;
+}
+/* --- booking --- */
+.reservations {
+  position: relative;
+}
+.b-step {
+  margin-top: 100px;
+}
+.stepbox {
+  height: 160px;
+  display: flex;
+  align-items: center;
+}
+.stepicon {
+  height: 160px;
+  transform: rotate(15deg);
+}
+.stepnumber {
+  transform: translateY(65px);
+}
+.stepnum {
+  font-size: 50px;
+  transform: translateY(-120px);
+  text-shadow: 3px 3px 25px #000000;
+}
+.steptext {
+  text-align: left;
+  margin: 45px 0 0 20px;
+}
+.content-title {
+  font-size: 24px;
+}
+.step-content {
+  width: 330px;
+  align-items: center;
+}
+.content {
+  font-size: 16px;
+}
+.stepOne {
+  margin: 20px 0 20px 100px;
+  animation-duration: 1s;
+}
+.stepTwo {
+  margin: 20px 0 20px 420px;
+  animation-duration: 1.2s;
+}
+.stepThree {
+  margin: 20px 0 20px 250px;
+  animation-duration: 1.5s;
+}
+.stepFour {
+  margin: 20px 0 20px 550px;
+  animation-duration: 1.8s;
+}
+.b-svg-astronaut {
+  position: absolute;
+  width: 250px;
+  bottom: 5%;
+  left: -8%;
+  animation-duration: 3s;
+}

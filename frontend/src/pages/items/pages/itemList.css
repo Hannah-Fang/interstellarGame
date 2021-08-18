@@ -1,0 +1,206 @@
+.booking-now-button-wrapper {
+  width: auto;
+  margin: 50px;
+  text-align: center;
+}
+/* 可以有空加個animation */
+
+.booking-faq-button-wrapper {
+  width: auto;
+  margin: 100px;
+  text-align: center;
+}
+
+.thumbnail1 {
+  width: 550px;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 500px) and (max-width: 991px) {
+  /* .search {
+    width: 72%;
+  } */
+
+  .PlanetA {
+    width: 10%;
+    padding-bottom: 100px;
+  }
+
+  .pic {
+    width: 45%;
+  }
+
+  .thumbnail1 {
+    width: 80%;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .PlanetA {
+    width: 20%;
+  }
+
+  .pic {
+    width: 20%;
+  }
+  .step1 {
+    width: 100%;
+  }
+
+  .thumbnail1 {
+    width: 80%;
+    margin-top: 25px;
+  }
+
+  ul.pagination li {
+    font-size: 10px;
+  }
+  
+  .input-group {
+    margin-top: 60px;
+    margin-right: 88px;
+  }
+}
+
+.step1 {
+  margin-top: 70px;
+  justify-content: space-between;
+}
+
+.pic:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.Planetgroup {
+  width: 100%;
+  justify-content: space-between;
+}
+.PlanetA {
+  background: transparent;
+  border: transparent;
+}
+
+button.PlanetA p li a.active {
+  text-shadow: 0 0 10px #b388fe, 0 0 20px #b388fe, 0 0 30px #b388fe,
+    0 0 40px #b388fe;
+  color: #b388fe;
+  border-radius: 5px;
+}
+
+button.PlanetA p a:hover:not(.active) {
+  color: #ffea01;
+  text-shadow: 0 0 10px #ffea01, 0 0 20px #ffea01, 0 0 30px #ffea01,
+    0 0 40px #ffea01;
+}
+
+.PlanetText {
+  color: var(--white);
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.titletext {
+  font-size: 16px;
+  color: aliceblue;
+  position: relative;
+  margin-top: -36px;
+}
+.input-group{
+  margin-right: 10px;
+}
+.search {
+  position: relative;
+  float: right;
+  margin-top: -130px;
+}
+.int {
+  border: 1px solid #b388fe;
+  border-radius: 5px 0px 0px 5px;
+  background-color: #02021ea9;
+}
+.input-group-btnitem {
+  border: 1px solid #b388fe;
+  border-radius: 0px 5px 5px 0px;
+  background-color: #b388fe;
+}
+/* .pagination {
+  position: relative;
+  justify-content: center;
+  margin-top: -85px;
+} */
+/* .pagetext {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+  margin-right: 10px;
+} */
+.button {
+  color: #b388fe;
+}
+
+.thumbnail {
+  position: relative;
+  margin-top: 100px;
+}
+.caption {
+  position: absolute;
+  top: 33%;
+  left: 0;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  color: aliceblue;
+}
+ul.pagination {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+ul.pagination li {
+  display: inline;
+}
+
+ul.pagination li a {
+  color: rgb(255, 255, 255);
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul.pagination li a.active {
+  text-shadow: 0 0 10px #b388fe, 0 0 20px #b388fe, 0 0 30px #b388fe,
+    0 0 40px #b388fe;
+  color: #b388fe;
+  border-radius: 5px;
+}
+
+ul.pagination li a:hover:not(.active) {
+  color: #ffea01;
+  text-shadow: 0 0 10px #ffea01, 0 0 20px #ffea01, 0 0 30px #ffea01,
+    0 0 40px #ffea01;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+}
+
+/* .titleimg1 {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 210px;
+  height: 53px;
+  text-align: center;
+}
+
+.titleimg2 {
+  font-size: 16px;
+  color: aliceblue;
+  line-height: -px;
+} */

@@ -1,0 +1,28 @@
+.btnitem1 {
+  width: 50px;
+  height: 69px;
+  background-color: #b388fe;
+  border-radius: 5px 0px 0px 5px;
+  border: 0px;
+  font-size: 32px;
+  color:rgb(255, 255, 255);
+}
+.btnitem2 {
+  width: 50px;
+  height: 69px;
+  background-color: #b388fe;
+  border-radius: 0px 5px 5px 0px;
+  border: 0px;
+  font-size: 32px;
+  color:rgb(255, 255, 255);
+}
+.btninptu {
+  width: 150px;
+  height: 69px;
+  background-color: #ffffff;
+  font-size: 32px;
+  color:black;
+}
+.btnitem3{
+  color: transparent;
+}
